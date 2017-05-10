@@ -13,3 +13,4 @@ FactoryDemo         - 工厂方法 | 子类对象的创建时机 就是工厂类
 NSThreadSynchronized - 多个线程操作同一文件 造成线程安全问题 <br>
 synchronizedObjec    - 单利 - 严谨的copy || 注意函数都会付出取锁的代价 代码中也包含dispatch_once方式 swift中已无once <br>
 NSStringCopyStrong   - 字符串strong copy 面试题必问 || 附件讲解一下 深拷贝 浅拷贝 <br>
+BlockManage          - block 是怎么循环引用的  weakSelf 延时用对象 解决方案<br>
