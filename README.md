@@ -9,3 +9,4 @@ OCAndCPP            - OC ->调用C++ ->中调用 OC  混编<br>
 PackageConfig       - 封装 默认参数设置 + 链式设置 <br>
 DCPlay              - 相机 GPU渲染 CMSampleBufferRef || 非AVCaptureVideoPreviewLayer <br>
 Hook                - 钩子 钩取方法时 Hook load loadView 运行生命 比较 在load里面 交换可能存在问题时 <br>
+FactoryDemo         - 工厂方法 | 子类对象的创建时机 就是工厂类干的
