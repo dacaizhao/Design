@@ -12,3 +12,4 @@ Hook                - 钩子 钩取方法时 Hook load loadView 运行生命 比
 FactoryDemo         - 工厂方法 | 子类对象的创建时机 就是工厂类干的 <br>
 NSThreadSynchronized - 多个线程操作同一文件 造成线程安全问题 <br>
 synchronizedObjec    - 单利 - 严谨的copy || 注意函数都会付出取锁的代价 代码中也包含dispatch_once方式 swift中已无once <br>
+NSStringCopyStrong   - 字符串strong copy 面试题必问 , 就是strong 指向可变字符串 字符串改变会跟着改变 copy修饰的则不会 <br>
