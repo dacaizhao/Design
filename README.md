@@ -9,6 +9,6 @@ OCAndCPP            - OC ->调用C++ ->中调用 OC  混编<br>
 PackageConfig       - 封装 默认参数设置 + 链式设置 <br>
 DCPlay              - 相机 GPU渲染 CMSampleBufferRef || 非AVCaptureVideoPreviewLayer <br>
 Hook                - 钩子 钩取方法时 Hook load loadView 运行生命 比较 在load里面 交换可能存在问题时 <br>
-FactoryDemo         - 工厂方法 | 子类对象的创建时机 就是工厂类干的
-NSThreadSynchronized - 多个线程操作同一文件 造成线程安全问题
-synchronizedObjec    - 单利 - 严谨的copy || 注意函数都会付出取锁的代价 代码中也包含dispatch_once方式 swift中已无once 
+FactoryDemo         - 工厂方法 | 子类对象的创建时机 就是工厂类干的 <br>
+NSThreadSynchronized - 多个线程操作同一文件 造成线程安全问题 <br>
+synchronizedObjec    - 单利 - 严谨的copy || 注意函数都会付出取锁的代价 代码中也包含dispatch_once方式 swift中已无once <br>
