@@ -6,3 +6,4 @@ RuntimeArchiver     - 解挡归档时 无需写多个属性  获取属性名自�
 Semaphore           - 信号量 方法的等待执行 <br>
 SemaphoreTaskLock   - 信号量的使用 异步队列执行方法 保证方法耗时执行完毕 才停止 例:音视频写入 <br>
 OCAndCPP            - OC ->调用C++ ->中调用 OC  混编<br>
+PackageConfig       - 封装 默认参数设置 + 链式设置 <br>
