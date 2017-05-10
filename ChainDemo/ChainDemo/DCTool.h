@@ -12,6 +12,9 @@
 
 @property(nonatomic,copy) NSString *ageVaule;
 @property(nonatomic,copy) NSString *nameValue;
+@property(nonatomic,copy) NSString *jobValue;
+
+@property(nonatomic,strong,readonly)  DCTool *(^Job)(NSString *job);
 
 -(DCTool *(^)(NSString *))name;
 

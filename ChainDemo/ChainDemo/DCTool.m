@@ -23,4 +23,11 @@
         return self;
     };
 }
+
+- (DCTool *(^)(NSString *))Job {
+    return ^(NSString *job) {
+        self.jobValue = job;
+        return self;
+    };
+}
 @end
