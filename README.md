@@ -16,3 +16,4 @@ NSStringCopyStrong   - 字符串strong copy 面试题必问 || 附件讲解一�
 BlockManage          - block 是怎么循环引用的  weakSelf 延时用对象 解决方案<br>
 MGJRouterDemo        - 蘑菇街的中间件 未完成待续 | 目的:减少依赖 注意:register open 使用的位置 当宿主需要用到 组件的回调时register 应该放在Router中<br>
 SwiftPOP             - swift 面向协议开发 可以实现:协议中可以实现方法 目的:减少依赖 |demo  loadView 粒子动画<br>
+RXSwiftTest          - Swift函数响应式编程 体验
